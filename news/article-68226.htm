@@ -2,23 +2,23 @@
 <html xml:lang="zh-CN" lang="zh-CN">
 
 <head>
-        <link rel="canonical" href="https://vpndownload.github.io/news/article-68031.htm" />
+        <link rel="canonical" href="https://vpndownload.github.io/news/article-68226.htm" />
     <!-- Required meta tags -->
     <meta charset="utf-8">
     <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
-    <title>python sqlist3 sql语句中的‘?‘ 与 ‘%s‘提交数据</title>
-        <meta name="description" content="1、创建数据库 import sqlite3  conn = sqlite3.connect('test1.db') c = conn.cursor()  sql1 = '''     create " />
+    <title>windows利用kubectl命令和vscode远程操作kubenetes(k8s)</title>
+        <meta name="description" content="windows 中安装kubecltl 命令： 下载地址： http://pwittrock.github.io/docs/tasks/tools/install-kubectl/#install-w" />
         <link rel="icon" href="/assets/website/img/clashshare/favicon.ico" type="image/x-icon"/>
 
     <meta name="author" content="VPN下载 免费节点订阅中文网">
     <meta property="og:type" content="article" />
-    <meta property="og:url" content="https://vpndownload.github.io/news/article-68031.htm" />
+    <meta property="og:url" content="https://vpndownload.github.io/news/article-68226.htm" />
     <meta property="og:site_name" content="VPN下载 免费节点订阅中文网" />
-    <meta property="og:title" content="python sqlist3 sql语句中的‘?‘ 与 ‘%s‘提交数据" />
-    <meta property="og:image" content="https://vpndownload.github.io/uploads/20240525/9bd98f24087f4d7a97bc723ae31a80fe.webp" />
-        <meta property="og:release_date" content="2025-03-05T15:51:25" />
-    <meta property="og:updated_time" content="2025-03-05T15:51:25" />
-        <meta property="og:description" content="1、创建数据库 import sqlite3  conn = sqlite3.connect('test1.db') c = conn.cursor()  sql1 = '''     create " />
+    <meta property="og:title" content="windows利用kubectl命令和vscode远程操作kubenetes(k8s)" />
+    <meta property="og:image" content="https://vpndownload.github.io/uploads/20240525/b0155c4bb786cec70c56c4607f7229ee.webp" />
+        <meta property="og:release_date" content="2025-03-06T11:01:21" />
+    <meta property="og:updated_time" content="2025-03-06T11:01:21" />
+        <meta property="og:description" content="windows 中安装kubecltl 命令： 下载地址： http://pwittrock.github.io/docs/tasks/tools/install-kubectl/#install-w" />
         
     <link href="//fonts.googleapis.com/css2?family=Nunito:ital,wght@0,300;0,400;0,600;0,700;0,800;1,300&display=swap" rel="stylesheet">
     <!-- Template CSS -->
@@ -31,7 +31,7 @@
     <meta name="robots" content="max-image-preview:large" />
     <meta name="apple-mobile-web-app-capable" content="yes">
     <meta name="apple-mobile-web-app-status-bar-style" content="black">
-    <meta name="apple-mobile-web-app-title" content="python sqlist3 sql语句中的‘?‘ 与 ‘%s‘提交数据">
+    <meta name="apple-mobile-web-app-title" content="windows利用kubectl命令和vscode远程操作kubenetes(k8s)">
     <meta name="format-detection" content="telephone=no">
 
     <link rel="dns-prefetch" href="https:/www.googletagmanager.com">
@@ -115,7 +115,7 @@
     <section class="w3l-inner-page-breadcrumb">
         <div class="breadcrumb-bg py-5">
             <div class="container pt-lg-5 pt-md-3 p-lg-4 pb-md-3 my-lg-3">
-                <h2 class="title pt-5">python sqlist3 sql语句中的‘?‘ 与 ‘%s‘提交数据</h2>
+                <h2 class="title pt-5">windows利用kubectl命令和vscode远程操作kubenetes(k8s)</h2>
                 <ul class="breadcrumbs-custom-path mt-3 text-center">
                     <li><a href="/">首页</a></li>
                     <li><a href="/news/">
@@ -132,9 +132,10 @@
             <div class="row">
                 <div class="col-md-9">
                                     <input type="hidden" id="share-website-info" data-name="Clash Node官网订阅站" data-url="https://clashnode.github.io">
-                  				  				  				<div id="content_views" class="markdown_views prism-atom-one-dark"> </h1> <h3> <a id="1_1" rel="nofollow"></a>1、创建数据库</h3> <pre><code class="prism language-python"><span class="token keyword">import</span> sqlite3  conn <span class="token operator">=</span> sqlite3<span class="token punctuation">.</span>connect<span class="token punctuation">(</span><span class="token string">'test1.db'</span><span class="token punctuation">)</span> c <span class="token operator">=</span> conn<span class="token punctuation">.</span>cursor<span class="token punctuation">(</span><span class="token punctuation">)</span>  sql1 <span class="token operator">=</span> <span class="token triple-quoted-string string">'''     create table students         (id int,name text,age int ) '''</span> c<span class="token punctuation">.</span>execute<span class="token punctuation">(</span>sql1<span class="token punctuation">)</span> </code></pre> <h3> <a id="21_15" rel="nofollow"></a>2、提交数据方式1</h3> <pre><code class="prism language-python">sql2 <span class="token operator">=</span> <span class="token triple-quoted-string string">''' insert into students values(1,'Tom',20) '''</span> c<span class="token punctuation">.</span>execute<span class="token punctuation">(</span>sql2<span class="token punctuation">)</span> <span class="token comment"># 等价于c.execute("insert into students values(1,'Tom',20)")</span> </code></pre> <h3> <a id="32_%09_23" rel="nofollow"></a>3、提交数据方式2 : 用?插入数据</h3> <pre><code class="prism language-python">data <span class="token operator">=</span> <span class="token punctuation">[</span><span class="token number">2</span><span class="token punctuation">,</span> <span class="token string">'Jack'</span><span class="token punctuation">,</span> <span class="token number">22</span><span class="token punctuation">]</span> c<span class="token punctuation">.</span>execute<span class="token punctuation">(</span><span class="token string">"insert into students values(?,?,?)"</span><span class="token punctuation">,</span> data<span class="token punctuation">)</span> </code></pre> <h3> <a id="43__%09executemany_28" rel="nofollow"></a>4、提交数据方式3 : 用?+executemany插入多条数据</h3> <pre><code class="prism language-python">datas <span class="token operator">=</span> <span class="token punctuation">[</span><span class="token punctuation">(</span><span class="token number">3</span><span class="token punctuation">,</span> <span class="token string">'wang'</span><span class="token punctuation">,</span> <span class="token number">33</span><span class="token punctuation">)</span><span class="token punctuation">,</span> <span class="token punctuation">(</span><span class="token number">4</span><span class="token punctuation">,</span> <span class="token string">'zhang'</span><span class="token punctuation">,</span> <span class="token number">19</span><span class="token punctuation">)</span><span class="token punctuation">]</span> c<span class="token punctuation">.</span>executemany<span class="token punctuation">(</span><span class="token string">"insert into students values(?,?,?)"</span><span class="token punctuation">,</span> datas<span class="token punctuation">)</span>  conn<span class="token punctuation">.</span>commit<span class="token punctuation">(</span><span class="token punctuation">)</span> conn<span class="token punctuation">.</span>close<span class="token punctuation">(</span><span class="token punctuation">)</span> </code></pre> <h2> <a id="4_37" rel="nofollow"></a>补充：提交数据4：固定字符串格式</h2> <pre><code class="prism language-python"><span class="token keyword">from</span> string <span class="token keyword">import</span> Template  sql_temp <span class="token operator">=</span> Template<span class="token punctuation">(</span><span class="token string">"insert into students values(${id},'${name}',${age})"</span><span class="token punctuation">)</span> c<span class="token punctuation">.</span>execute<span class="token punctuation">(</span>sql_temp<span class="token punctuation">.</span>substitute<span class="token punctuation">(</span><span class="token builtin">id</span><span class="token operator">=</span><span class="token number">10</span><span class="token punctuation">,</span> name<span class="token operator">=</span><span class="token string">"rave"</span><span class="token punctuation">,</span> age<span class="token operator">=</span><span class="token number">30</span><span class="token punctuation">)</span><span class="token punctuation">)</span> </code></pre> <p><font face="仿宋" color="red" size="2">注意: name是字符串，所以用单引号括起来</font></p> <p><a href="http://www.m6000.cn/wp-content/themes/begin%20lts/inc/go.php?url=https://docs.python.org/2/library/sqlite3.html"  rel="nofollow">参考文档: sqlite3 — DB-API 2.0 interface for SQLite databases</a></p> </p></div> 			                <div class="clearfix"></div>
+                  				  				  				<div id="content_views" class="markdown_views prism-atom-one-dark"> <h2><a id="windows_kubecltl__0" rel="nofollow"></a>windows 中安装kubecltl 命令：</h2> <p>下载地址： http://pwittrock.github.io/docs/tasks/tools/install-kubectl/#install-with-chocolatey-on-windows</p> <p><img decoding="async" src="http://img.555519.xyz/uploads3/20220608/ba85b646ba6eaf22073ab3f131a17718.jpg" alt="windows利用kubectl命令和vscode远程操作kubenetes(k8s)"></p> <h3><a id="_6" rel="nofollow"></a>配置环境变量：</h3> <p><img decoding="async" src="http://img.555519.xyz/uploads3/20220608/10eee866944c8a29076cb635425214f3.jpg" alt="windows利用kubectl命令和vscode远程操作kubenetes(k8s)"></p> <h2><a id="config__10" rel="nofollow"></a>配置config 路径：</h2> <ol> <li><code>$HOME/.kube/config windows</code>如下，，只需要将<code>$HOME/.kube/config</code> 拷贝到windows当前用户<code>.kube</code>路径下稍加修改。<code>.kube</code>是自动生成的，没有自己创建</li> <li>编辑config 文件，<br /><img decoding="async" src="http://img.555519.xyz/uploads3/20220608/5696360c58431f015f14d77c155c165d.jpg" alt="windows利用kubectl命令和vscode远程操作kubenetes(k8s)"><br /><img decoding="async" src="http://img.555519.xyz/uploads3/20220608/6860b8d6d5edbda429c5f38bf178c8a6.jpg" alt="windows利用kubectl命令和vscode远程操作kubenetes(k8s)"><br /> 将config配置文件放在.kube目录下，即可使用命令获取contexts. (配置文件及k8s集群中)<br /><code>kubectl.exe config get-contexts</code><br /><img decoding="async" src="http://img.555519.xyz/uploads3/20220608/d266e02393a4527e01ff8ec9468ccd1d.jpg" alt="windows利用kubectl命令和vscode远程操作kubenetes(k8s)"><br /> 如果没有成功可以参考一下命令：<br /> kubectl confug --kubeconfig=“C:\user\admin.kube\config”</li> </ol> <h2><a id="vscodekubernetes_23" rel="nofollow"></a>vscode中添加kubernetes插件</h2> <p><img decoding="async" src="http://img.555519.xyz/uploads3/20220608/cea7e45806e2f34107f667cb47ef9a16.jpg" alt="windows利用kubectl命令和vscode远程操作kubenetes(k8s)"></p> <h2><a id="vscodekubeconfig_28" rel="nofollow"></a>vscode添加kubeconfig</h2> <p>ctrl + shift + p 然后输入kubernetes 找到kubenetes: set kubeconfig</p> <p><img decoding="async" src="http://img.555519.xyz/uploads3/20220608/233183c7f066e90cee7086a40b4ccd68.jpg" alt="windows利用kubectl命令和vscode远程操作kubenetes(k8s)"></p> <p>Add new kubeconfig<br /><img decoding="async" src="http://img.555519.xyz/uploads3/20220608/0aded5ff1bc3df1ebd3100c7a088841e.jpg" alt="windows利用kubectl命令和vscode远程操作kubenetes(k8s)"><br /> 编辑config 文件<br /><img decoding="async" src="http://img.555519.xyz/uploads3/20220608/5696360c58431f015f14d77c155c165d.jpg" alt="windows利用kubectl命令和vscode远程操作kubenetes(k8s)"><br /> 刷新下图所示圆圈即可加载远程k8s集群资源<br /><img decoding="async" src="http://img.555519.xyz/uploads3/20220608/4300d0bed82d014b47e837ca7d1e3ac1.jpg" alt="windows利用kubectl命令和vscode远程操作kubenetes(k8s)"></p> </div> 			                <div class="clearfix"></div>
                 <div class="col-md-12 mt-5">
-                                        <p>下一个：<a href="/news/article-68032.htm">宠物粮网店挣钱吗多少钱一个月（宠物粮进货渠道）</a></p>
+                                        <p>上一个：<a href="/news/article-68032.htm">宠物粮网店挣钱吗多少钱一个月（宠物粮进货渠道）</a></p>
+                                        <p>下一个：<a href="/news/article-68227.htm">宠物粮食代加工骗局曝光 宠物粮食代加工骗局曝光视频</a></p>
                                     </div>
                                 </div>
                 <div class="col-md-3">
@@ -144,16 +145,16 @@
     </div>
     <div class="panel-body">
         <ul class="p-0 x-0" style="list-style: none;margin: 0;padding: 0;">
+                        <li class="py-2"><a href="/news/article-69509.htm" title="动物医院实践心得5000字内容摘抄大全 动物医院实践心得5000字内容摘抄大全图片">动物医院实践心得5000字内容摘抄大全 动物医院实践心得5000字内容摘抄大全图片</a></li>
+                        <li class="py-2"><a href="/free-nodes/2025-3-4-free-v2ray-subscribe.htm" title="VPN下载 | 3月4日19M/S|免费V2ray/Clash/SSR/Shadowrocket免费节点地址">VPN下载 | 3月4日19M/S|免费V2ray/Clash/SSR/Shadowrocket免费节点地址</a></li>
                         <li class="py-2"><a href="/free-nodes/2025-3-5-free-node-subscribe.htm" title="VPN下载 | 3月5日21.6M/S|免费Clash/SSR/V2ray/Shadowrocket免费节点地址">VPN下载 | 3月5日21.6M/S|免费Clash/SSR/V2ray/Shadowrocket免费节点地址</a></li>
-                        <li class="py-2"><a href="/news/article-68857.htm" title="重庆宠物领养吧最新消息视频（重庆宠物领养重庆宠物赠送）">重庆宠物领养吧最新消息视频（重庆宠物领养重庆宠物赠送）</a></li>
-                        <li class="py-2"><a href="/news/article-68226.htm" title="windows利用kubectl命令和vscode远程操作kubenetes(k8s)">windows利用kubectl命令和vscode远程操作kubenetes(k8s)</a></li>
-                        <li class="py-2"><a href="/news/article-68856.htm" title="宠物店领养协议书 宠物店领养协议书范本">宠物店领养协议书 宠物店领养协议书范本</a></li>
                         <li class="py-2"><a href="/news/article-68227.htm" title="宠物粮食代加工骗局曝光 宠物粮食代加工骗局曝光视频">宠物粮食代加工骗局曝光 宠物粮食代加工骗局曝光视频</a></li>
                         <li class="py-2"><a href="/news/article-68032.htm" title="宠物粮网店挣钱吗多少钱一个月（宠物粮进货渠道）">宠物粮网店挣钱吗多少钱一个月（宠物粮进货渠道）</a></li>
-                        <li class="py-2"><a href="/free-nodes/2025-3-4-free-v2ray-subscribe.htm" title="VPN下载 | 3月4日19M/S|免费V2ray/Clash/SSR/Shadowrocket免费节点地址">VPN下载 | 3月4日19M/S|免费V2ray/Clash/SSR/Shadowrocket免费节点地址</a></li>
                         <li class="py-2"><a href="/news/article-68031.htm" title="python sqlist3 sql语句中的‘?‘ 与 ‘%s‘提交数据">python sqlist3 sql语句中的‘?‘ 与 ‘%s‘提交数据</a></li>
                         <li class="py-2"><a href="/free-nodes/2025-3-6-free-high-speed-nodes.htm" title="VPN下载 | 3月6日22.7M/S|免费V2ray/Clash/SSR/Shadowrocket免费节点地址">VPN下载 | 3月6日22.7M/S|免费V2ray/Clash/SSR/Shadowrocket免费节点地址</a></li>
+                        <li class="py-2"><a href="/news/article-69508.htm" title="java8新特性详解_JAVA8 十大新特性详解">java8新特性详解_JAVA8 十大新特性详解</a></li>
                         <li class="py-2"><a href="/free-nodes/2025-3-7-free-node-subscribe-links.htm" title="VPN下载 | 3月7日22.4M/S|免费SSR/Shadowrocket/V2ray/Clash免费节点地址">VPN下载 | 3月7日22.4M/S|免费SSR/Shadowrocket/V2ray/Clash免费节点地址</a></li>
+                        <li class="py-2"><a href="/free-nodes/2025-3-8-free-v2ray-subscribe.htm" title="VPN下载 | 3月8日22.8M/S|免费V2ray/Shadowrocket/Clash/SSR免费节点地址">VPN下载 | 3月8日22.8M/S|免费V2ray/Shadowrocket/Clash/SSR免费节点地址</a></li>
                     </ul>
     </div>
 </div>
@@ -165,7 +166,7 @@
     <div class="panel-body">
         <ul class="p-0 x-0" style="list-style: none;margin: 0;padding: 0;">
                         <li class="py-2">
-                <h4><span class="badge" style="float: right;">10</span> <a href="/date/2025-03/" title="2025-03 归档">2025-03</a></h4>
+                <h4><span class="badge" style="float: right;">13</span> <a href="/date/2025-03/" title="2025-03 归档">2025-03</a></h4>
             </li>
                     </ul>
     </div>

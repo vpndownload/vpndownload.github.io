@@ -1,0 +1,280 @@
+<!doctype html>
+<html xml:lang="zh-CN" lang="zh-CN">
+
+<head>
+        <link rel="canonical" href="https://vpndownload.github.io/news/article-69508.htm" />
+    <!-- Required meta tags -->
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+    <title>java8新特性详解_JAVA8 十大新特性详解</title>
+        <meta name="description" content="1 long t0 =System.nanoTime();2 long count =values.stream().sorted().count();3 System.out.println(cou" />
+        <link rel="icon" href="/assets/website/img/clashshare/favicon.ico" type="image/x-icon"/>
+
+    <meta name="author" content="VPN下载 免费节点订阅中文网">
+    <meta property="og:type" content="article" />
+    <meta property="og:url" content="https://vpndownload.github.io/news/article-69508.htm" />
+    <meta property="og:site_name" content="VPN下载 免费节点订阅中文网" />
+    <meta property="og:title" content="java8新特性详解_JAVA8 十大新特性详解" />
+    <meta property="og:image" content="https://vpndownload.github.io/uploads/20240525/8970d6b309f32feedd1285d6054e5349.webp" />
+        <meta property="og:release_date" content="2025-03-08T05:05:32" />
+    <meta property="og:updated_time" content="2025-03-08T05:05:32" />
+        <meta property="og:description" content="1 long t0 =System.nanoTime();2 long count =values.stream().sorted().count();3 System.out.println(cou" />
+        
+    <link href="//fonts.googleapis.com/css2?family=Nunito:ital,wght@0,300;0,400;0,600;0,700;0,800;1,300&display=swap" rel="stylesheet">
+    <!-- Template CSS -->
+    <link rel="stylesheet" href="/assets/website/css/clashshare/style-starter.css">
+
+    <meta name="applicable-device" content="pc,mobile" />
+    <meta name="renderer" content="webkit" />
+    <meta name="force-rendering" content="webkit" />
+    <meta http-equiv="Cache-Control" content="no-transform" />
+    <meta name="robots" content="max-image-preview:large" />
+    <meta name="apple-mobile-web-app-capable" content="yes">
+    <meta name="apple-mobile-web-app-status-bar-style" content="black">
+    <meta name="apple-mobile-web-app-title" content="java8新特性详解_JAVA8 十大新特性详解">
+    <meta name="format-detection" content="telephone=no">
+
+    <link rel="dns-prefetch" href="https:/www.googletagmanager.com">
+    <link rel="dns-prefetch" href="https://www.googleadservices.com">
+    <link rel="dns-prefetch" href="https://www.google-analytics.com">
+    <link rel="dns-prefetch" href="https://pagead2.googlesyndication.com">
+    <link rel="dns-prefetch" href="https://cm.g.doubleclick.net">
+    <link rel="dns-prefetch" href="https://fonts.googleapis.com">
+    <!-- Google tag (gtag.js) -->
+<script async src="https://www.googletagmanager.com/gtag/js?id=G-7FRZVVJHJQ"></script>
+<script>
+  window.dataLayer = window.dataLayer || [];
+  function gtag(){dataLayer.push(arguments);}
+  gtag('js', new Date());
+
+  gtag('config', 'G-7FRZVVJHJQ');
+</script>
+    <script async src="https://pagead2.googlesyndication.com/pagead/js/adsbygoogle.js?client=ca-pub-3332997411212854"
+     crossorigin="anonymous"></script>
+</head>
+
+<body data-page="detail">
+        <!--/header-w3l-->
+    <div class="header-w3l">
+        <!-- header -->
+        <header id="site-header" class="fixed-top">
+            <div class="container">
+                <nav class="navbar navbar-expand-lg stroke">
+                                        <a class="navbar-brand" href="/">
+                        VPN下载                    </a>
+                                        <!-- if logo is image enable this   
+            <a class="navbar-brand" href="#index.html">
+                <img src="image-path" alt="Your logo" title="Your logo" style="height:35px;" />
+            </a> -->
+                    <button class="navbar-toggler  collapsed bg-gradient" type="button" data-toggle="collapse" data-target="#navbarTogglerDemo02" aria-controls="navbarTogglerDemo02" aria-expanded="false" aria-label="Toggle navigation">
+                        <span class="navbar-toggler-icon fa icon-expand fa-bars"></span>
+                        <span class="navbar-toggler-icon fa icon-close fa-times"></span>
+                        </span>
+                    </button>
+                    <div class="collapse navbar-collapse" id="navbarTogglerDemo02">
+                        <ul class="navbar-nav ml-lg-auto">
+                                                        <li class="nav-item">
+                                <a class="nav-link" href="/">首页</a>
+                            </li>
+                                                        <li class="nav-item">
+                                <a class="nav-link" href="/free-nodes/">免费节点</a>
+                            </li>
+                                                        <li class="nav-item">
+                                <a class="nav-link" href="/paid-subscribe/">推荐机场</a>
+                            </li>
+                                                        <li class="nav-item">
+                                <a class="nav-link" href="/news/">新闻资讯</a>
+                            </li>
+                                                        <li class="nav-item">
+                                <a class="nav-link" href="/client.htm">客户端</a>
+                            </li>
+                                                    </ul>
+                    </div>
+                    <!-- toggle switch for light and dark theme -->
+                    <div class="mobile-position">
+                        <nav class="navigation">
+                            <div class="theme-switch-wrapper">
+                                <label class="theme-switch" for="checkbox">
+                                    <input type="checkbox" id="checkbox">
+                                    <div class="mode-container">
+                                        <i class="gg-sun"></i>
+                                        <i class="gg-moon"></i>
+                                    </div>
+                                </label>
+                            </div>
+                        </nav>
+                    </div>
+                    <!-- //toggle switch for light and dark theme -->
+                </nav>
+            </div>
+        </header>
+        <!-- //header -->
+    </div>
+    <!--//header-w3l-->
+    <!--/w3l-inner-page-breadcrumb-->
+    <section class="w3l-inner-page-breadcrumb">
+        <div class="breadcrumb-bg py-5">
+            <div class="container pt-lg-5 pt-md-3 p-lg-4 pb-md-3 my-lg-3">
+                <h2 class="title pt-5">java8新特性详解_JAVA8 十大新特性详解</h2>
+                <ul class="breadcrumbs-custom-path mt-3 text-center">
+                    <li><a href="/">首页</a></li>
+                    <li><a href="/news/">
+                        <span class="fa fa-arrow-right mx-2" aria-hidden="true"></span> 新闻资讯</a>
+                    </li>
+                    <li class="active"><span class="fa fa-arrow-right mx-2" aria-hidden="true"></span> 正文</li>
+                </ul>
+            </div>
+        </div>
+    </section>
+    <!-- /w3l-content-2-->
+    <div class="w3l-content-2 py-5">
+        <div class="container">
+            <div class="row">
+                <div class="col-md-9">
+                                    <input type="hidden" id="share-website-info" data-name="Clash Node官网订阅站" data-url="https://clashnode.github.io">
+                  				  				  				<div id="content_views" class="htmledit_views"> <div style="font-size:16px;"> <p>1 long t0 =System.nanoTime();2 long count =values.stream().sorted().count();3 System.out.println(count);4 long t1 =System.nanoTime();5 long millis = TimeUnit.NANOSECONDS.toMillis(t1 -t0);6 System.out.println(String.format("sequential sort took: %d ms", millis));</p> <p>// 串行耗时: 899 ms并行排序：</p> <p>1 long t0 =System.nanoTime();2 long count =values.parallelStream().sorted().count();3 System.out.println(count);4 long t1 =System.nanoTime();5 long millis = TimeUnit.NANOSECONDS.toMillis(t1 -t0);6 System.out.println(String.format("parallel sort took: %d ms", millis));</p> <p>// 并行排序耗时: 472 ms</p> <p>上面两个代码几乎是一样的，但是并行版的快了50%之多，唯一需要做的改动就是将stream()改为parallelStream()。</p> <p>Map</p> <p>前面提到过，Map类型不支持stream，不过Map提供了一些新的有用的方法来处理一些日常任务。</p> <p>1 Map map = new HashMap&lt;&gt;();2 for (int i = 0; i &lt; 10; i++) {3 map.putIfAbsent(i, "val" +i);4 }</p> <p>map.forEach((id, val) -&gt; System.out.println(val));</p> <p>以上代码很容易理解， putIfAbsent 不需要我们做额外的存在性检查，而forEach则接收一个Consumer接口来对map里的每一个键值对进行操作。</p> <p>下面的例子展示了map上的其他有用的函数：</p> <p>1 map.computeIfPresent(3, (num, val) -&gt; val +num);2 map.get(3); //val33</p> <p>3 map.computeIfPresent(9, (num, val) -&gt; null);4 map.containsKey(9); //false</p> <p>5 map.computeIfAbsent(23, num -&gt; "val" +num);6 map.containsKey(23); //true</p> <p>7 map.computeIfAbsent(3, num -&gt; "bam");8 map.get(3); //val33</p> <p>接下来展示如何在Map里删除一个键值全都匹配的项：</p> <p>1 map.remove(3, "val3");2 map.get(3); //val33</p> <p>3 map.remove(3, "val33");4 map.get(3); //null</p> <p>另外一个有用的方法</p> <p>map.getOrDefault(42, "not found"); //not found</p> <p>对Map的元素做合并也变得很容易了：</p> <p>1 map.merge(9, "val9", (value, newValue) -&gt;value.concat(newValue));2 map.get(9); //val9</p> <p>3 map.merge(9, "concat", (value, newValue) -&gt;value.concat(newValue));4 map.get(9); //val9concat</p> <p>Merge做的事情是如果键名不存在则插入，否则则对原键对应的值做合并操作并重新插入到map中。</p> <p>九、Date API</p> <p>Java 8 在包java.time下包含了一组全新的时间日期API。新的日期API和开源的Joda-Time库差不多，但又不完全一样，下面的例子展示了这组新API里最重要的一些部分：</p> <p>Clock 时钟</p> <p>Clock类提供了访问当前日期和时间的方法，Clock是时区敏感的，可以用来取代 System.currentTimeMillis()</p> <p>来获取当前的微秒数。某一个特定的时间点也可以使用Instant类来表示，Instant类也可以用来创建老的java.util.Date对象。</p> <p>1 lock clock =Clock.systemDefaultZone();2 long millis =clock.millis();3 Instant instant =clock.instant();4 Date legacyDate = Date.from(instant); //legacy java.util.Date</p> <p>Timezones 时区</p> <p>在新API中时区使用ZoneId来表示。时区可以很方便的使用静态方法of来获取到。 时区定义了到UTS时间的时间差，在Instant时间点对象到本地日期对象之间转换的时候是极其重要的。</p> <p>1 System.out.println(ZoneId.getAvailableZoneIds());2 //prints all available timezone ids</p> <p>3 ZoneId zone1 = ZoneId.of("Europe/Berlin");4 ZoneId zone2 = ZoneId.of("Brazil/East");5 System.out.println(zone1.getRules());6 System.out.println(zone2.getRules());7 //ZoneRules[currentStandardOffset=+01:00]8 //ZoneRules[currentStandardOffset=-03:00]</p> <p>LocalTime 本地时间</p> <p>LocalTime 定义了一个没有时区信息的时间，例如 晚上10点，或者 17:30:15。下面的例子使用前面代码创建的时区创建了两个本地时间。之后比较时间并以小时和分钟为单位计算两个时间的时间差：</p> <p>1 LocalTime now1 =LocalTime.now(zone1);2 LocalTime now2 =LocalTime.now(zone2);3 System.out.println(now1.isBefore(now2)); //false</p> <p>4 long hoursBetween =ChronoUnit.HOURS.between(now1, now2);5 long minutesBetween =ChronoUnit.MINUTES.between(now1, now2);6 System.out.println(hoursBetween); //-3</p> <p>7 System.out.println(minutesBetween); //-239</p> <p>LocalTime 提供了多种工厂方法来简化对象的创建，包括解析时间字符串。</p> <p>1 LocalTime late = LocalTime.of(23, 59, 59);2 System.out.println(late); //23:59:59</p> <p>3 DateTimeFormatter germanFormatter =</p> <p>4 DateTimeFormatter5 .ofLocalizedTime(FormatStyle.SHORT)6 .withLocale(Locale.GERMAN);7 LocalTime leetTime = LocalTime.parse("13:37", germanFormatter);8 System.out.println(leetTime); //13:37</p> <p>LocalDate 本地日期</p> <p>LocalDate 表示了一个确切的日期，比如 2014-03-11。该对象值是不可变的，用起来和LocalTime基本一致。下面的例子展示了如何给Date对象加减天/月/年。另外要注意的是这些对象是不可变的，操作返回的总是一个新实例。</p> <p>1 LocalDate today =LocalDate.now();2 LocalDate tomorrow = today.plus(1, ChronoUnit.DAYS);3 LocalDate yesterday = tomorrow.minusDays(2);4 LocalDate independenceDay = LocalDate.of(2014, Month.JULY, 4);5 DayOfWeek dayOfWeek = independenceDay.getDayOfWeek();</p> <p>System.out.println(dayOfWeek);&nbsp;&nbsp;&nbsp; // FRIDAY从字符串解析一个LocalDate类型和解析LocalTime一样简单：</p> <p>1 DateTimeFormatter germanFormatter =</p> <p>2 DateTimeFormatter3 .ofLocalizedDate(FormatStyle.MEDIUM)4 .withLocale(Locale.GERMAN);5 LocalDate xmas = LocalDate.parse("24.12.2014", germanFormatter);6 System.out.println(xmas); //2014-12-24</p> <p>LocalDateTime 本地日期时间</p> <p>LocalDateTime 同时表示了时间和日期，相当于前两节内容合并到一个对象上了。LocalDateTime和LocalTime还有LocalDate一样，都是不可变的。LocalDateTime提供了一些能访问具体字段的方法。</p> <p>1 LocalDateTime sylvester = LocalDateTime.of(2014, Month.DECEMBER, 31, 23, 59, 59);2 DayOfWeek dayOfWeek =sylvester.getDayOfWeek();3 System.out.println(dayOfWeek); //WEDNESDAY</p> <p>4 Month month =sylvester.getMonth();5 System.out.println(month); //DECEMBER</p> <p>6 long minuteOfDay =sylvester.getLong(ChronoField.MINUTE_OF_DAY);7 System.out.println(minuteOfDay); //1439</p> <p>只要附加上时区信息，就可以将其转换为一个时间点Instant对象，Instant时间点对象可以很容易的转换为老式的java.util.Date。</p> <p>1 Instant instant =sylvester2 .atZone(ZoneId.systemDefault())3 .toInstant();4 Date legacyDate =Date.from(instant);5 System.out.println(legacyDate); //Wed Dec 31 23:59:59 CET 2014</p> <p>格式化LocalDateTime和格式化时间和日期一样的，除了使用预定义好的格式外，我们也可以自己定义格式：</p> <p>1 DateTimeFormatter formatter =</p> <p>2 DateTimeFormatter3 .ofPattern("MMM dd, yyyy - HH:mm");4 LocalDateTime parsed = LocalDateTime.parse("Nov 03, 2014 - 07:13", formatter);5 String string =formatter.format(parsed);6 System.out.println(string); //Nov 03, 2014 - 07:13</p> <p>和java.text.NumberFormat不一样的是新版的DateTimeFormatter是不可变的，所以它是线程安全的。</p> <p>关于时间日期格式的详细信息：http://download.java.net/jdk8/docs/api/java/time/format/DateTimeFormatter.html</p> <p>十、Annotation 注解</p> <p>在Java 8中支持多重注解了，先看个例子来理解一下是什么意思。</p> <p>首先定义一个包装类Hints注解用来放置一组具体的Hint注解：</p> <p>1 @interfaceHints {2 Hint[] value();3 }4 @Repeatable(Hints.class)5 @interfaceHint {6 String value();7 }</p> <p>Java 8允许我们把同一个类型的注解使用多次，只需要给该注解标注一下@Repeatable即可。</p> <p>例 1: 使用包装类当容器来存多个注解(老方法)</p> <p>1 @Hints({@Hint("hint1"), @Hint("hint2")})2 class Person {}</p> <p>例 2：使用多重注解(新方法)</p> <p>1 @Hint("hint1")2 @Hint("hint2")3 class Person {}</p> <p>第二个例子里java编译器会隐性的帮你定义好@Hints注解，了解这一点有助于你用反射来获取这些信息：</p> <p>1 Hint hint = Person.class.getAnnotation(Hint.class);2 System.out.println(hint); //null</p> <p>3 Hints hints1 = Person.class.getAnnotation(Hints.class);4 System.out.println(hints1.value().length); //2</p> <p>5 Hint[] hints2 = Person.class.getAnnotationsByType(Hint.class);6 System.out.println(hints2.length); //2</p> <p>即便我们没有在Person类上定义@Hints注解，我们还是可以通过 getAnnotation(Hints.class) 来获取 @Hints注解，更加方便的方法是使用 getAnnotationsByType 可以直接获取到所有的@Hint注解。另外Java 8的注解还增加到两种新的target上了：</p> <p>1 @Target({ElementType.TYPE_PARAMETER, ElementType.TYPE_USE})2 @interface MyAnnotation {}</p> <p>关于Java 8的新特性就写到这了，肯定还有更多的特性等待发掘。JDK 1.8里还有很多很有用的东西，比如Arrays.parallelSort, StampedLock和CompletableFuture等等。</p> </div> </div> 			                <div class="clearfix"></div>
+                <div class="col-md-12 mt-5">
+                                        <p>上一个：<a href="/news/article-68857.htm">重庆宠物领养吧最新消息视频（重庆宠物领养重庆宠物赠送）</a></p>
+                                        <p>下一个：<a href="/news/article-69509.htm">动物医院实践心得5000字内容摘抄大全 动物医院实践心得5000字内容摘抄大全图片</a></p>
+                                    </div>
+                                </div>
+                <div class="col-md-3">
+                    <div class="panel panel-default">
+    <div class="panel-heading">
+        <h3 class="panel-title">热门文章</h3>
+    </div>
+    <div class="panel-body">
+        <ul class="p-0 x-0" style="list-style: none;margin: 0;padding: 0;">
+                        <li class="py-2"><a href="/free-nodes/2025-3-4-free-v2ray-subscribe.htm" title="VPN下载 | 3月4日19M/S|免费V2ray/Clash/SSR/Shadowrocket免费节点地址">VPN下载 | 3月4日19M/S|免费V2ray/Clash/SSR/Shadowrocket免费节点地址</a></li>
+                        <li class="py-2"><a href="/news/article-69509.htm" title="动物医院实践心得5000字内容摘抄大全 动物医院实践心得5000字内容摘抄大全图片">动物医院实践心得5000字内容摘抄大全 动物医院实践心得5000字内容摘抄大全图片</a></li>
+                        <li class="py-2"><a href="/free-nodes/2025-3-7-free-node-subscribe-links.htm" title="VPN下载 | 3月7日22.4M/S|免费SSR/Shadowrocket/V2ray/Clash免费节点地址">VPN下载 | 3月7日22.4M/S|免费SSR/Shadowrocket/V2ray/Clash免费节点地址</a></li>
+                        <li class="py-2"><a href="/free-nodes/2025-3-6-free-high-speed-nodes.htm" title="VPN下载 | 3月6日22.7M/S|免费V2ray/Clash/SSR/Shadowrocket免费节点地址">VPN下载 | 3月6日22.7M/S|免费V2ray/Clash/SSR/Shadowrocket免费节点地址</a></li>
+                        <li class="py-2"><a href="/news/article-68031.htm" title="python sqlist3 sql语句中的‘?‘ 与 ‘%s‘提交数据">python sqlist3 sql语句中的‘?‘ 与 ‘%s‘提交数据</a></li>
+                        <li class="py-2"><a href="/news/article-69508.htm" title="java8新特性详解_JAVA8 十大新特性详解">java8新特性详解_JAVA8 十大新特性详解</a></li>
+                        <li class="py-2"><a href="/news/article-68226.htm" title="windows利用kubectl命令和vscode远程操作kubenetes(k8s)">windows利用kubectl命令和vscode远程操作kubenetes(k8s)</a></li>
+                        <li class="py-2"><a href="/news/article-68857.htm" title="重庆宠物领养吧最新消息视频（重庆宠物领养重庆宠物赠送）">重庆宠物领养吧最新消息视频（重庆宠物领养重庆宠物赠送）</a></li>
+                        <li class="py-2"><a href="/free-nodes/2025-3-8-free-v2ray-subscribe.htm" title="VPN下载 | 3月8日22.8M/S|免费V2ray/Shadowrocket/Clash/SSR免费节点地址">VPN下载 | 3月8日22.8M/S|免费V2ray/Shadowrocket/Clash/SSR免费节点地址</a></li>
+                        <li class="py-2"><a href="/news/article-68856.htm" title="宠物店领养协议书 宠物店领养协议书范本">宠物店领养协议书 宠物店领养协议书范本</a></li>
+                    </ul>
+    </div>
+</div>
+
+<div class="panel panel-default">
+    <div class="panel-heading">
+        <h3 class="panel-title">归纳</h3>
+    </div>
+    <div class="panel-body">
+        <ul class="p-0 x-0" style="list-style: none;margin: 0;padding: 0;">
+                        <li class="py-2">
+                <h4><span class="badge" style="float: right;">13</span> <a href="/date/2025-03/" title="2025-03 归档">2025-03</a></h4>
+            </li>
+                    </ul>
+    </div>
+</div>
+
+
+
+                </div>
+            </div>
+        </div>
+    </div>
+    <!-- //w3l-content-2-->
+        <!-- footer -->
+    <footer class="w3l-footer-29-main">
+        <!-- copyright -->
+        <section class="w3l-copyright">
+            <div class="container">
+                <div class="row bottom-copies">
+                    <p class="col-lg-8 copy-footer-29">
+                            <p>
+                                <a href="/">首页</a> | 
+                                <a href="/free-node/">免费节点</a> | 
+                                <a href="/news/">新闻资讯</a> |
+                                <a href="/about-us.htm">关于我们</a> |
+                                <a href="/disclaimer.htm">免责申明</a> |
+                                <a href="/privacy.htm">隐私申明</a> |
+                                <a href="/sitemap.xml">网站地图</a>
+                            </p>
+                        VPN下载 免费节点订阅中文网 版权所有 Powered by WordPress
+                    </p>
+                    <div class="col-lg-4 footer-list-29">
+                        <ul class="d-flex text-lg-right">
+                            <li class="mx-lg-5 mx-md-4 mx-3"><a href="#">Privacy Policy</a></li>
+                            <li><a href="#">Contact Us</a></li>
+                        </ul>
+                    </div>
+                </div>
+            </div>
+        </section>
+        <!-- move top -->
+        <button onclick="topFunction()" id="movetop" title="Go to top">
+            &#10548;
+        </button>
+        <script>
+        // When the user scrolls down 20px from the top of the document, show the button
+        window.onscroll = function() {
+            scrollFunction()
+        };
+
+        function scrollFunction() {
+            if (document.body.scrollTop > 20 || document.documentElement.scrollTop > 20) {
+                document.getElementById("movetop").style.display = "block";
+            } else {
+                document.getElementById("movetop").style.display = "none";
+            }
+        }
+
+        // When the user clicks on the button, scroll to the top of the document
+        function topFunction() {
+            document.body.scrollTop = 0;
+            document.documentElement.scrollTop = 0;
+        }
+        </script>
+        <!-- /move top -->
+    </footer>
+    <!--//footer-->
+    <!-- Template JavaScript -->
+    <script src="/assets/website/js/frontend/clashshare/jquery-3.5.1.min.js"></script>
+    <script src="/assets/website/js/frontend/clashshare/theme-change.js"></script>
+    <!-- disable body scroll which navbar is in active -->
+    <script>
+    $(function() {
+        $('.navbar-toggler').click(function() {
+            $('body').toggleClass('noscroll');
+        })
+    });
+    </script>
+    <!-- disable body scroll which navbar is in active -->
+    <!--/MENU-JS-->
+    <script>
+    $(window).on("scroll", function() {
+        var scroll = $(window).scrollTop();
+
+        if (scroll >= 80) {
+            $("#site-header").addClass("nav-fixed");
+        } else {
+            $("#site-header").removeClass("nav-fixed");
+        }
+    });
+
+    //Main navigation Active Class Add Remove
+    $(".navbar-toggler").on("click", function() {
+        $("header").toggleClass("active");
+    });
+    $(document).on("ready", function() {
+        if ($(window).width() > 991) {
+            $("header").removeClass("active");
+        }
+        $(window).on("resize", function() {
+            if ($(window).width() > 991) {
+                $("header").removeClass("active");
+            }
+        });
+    });
+    </script>
+    <!--//MENU-JS-->
+    <script src="/assets/website/js/frontend/clashshare/bootstrap.min.js"></script>
+    <script src="https://www.freeclashnode.com/assets/js/frontend/invite-url.js"></script><script src="/assets/website/js/frontend/G.js"></script>
+</body>
+
+</html>
