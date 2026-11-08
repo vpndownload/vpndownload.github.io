@@ -1,4 +1,4 @@
-# VPN下载 | 11月1日20.7M/S|免费Clash节点/Shadowrocket节点/Singbox节点/SSR节点/V2ray节点免费节点地址  更新时间 2026-11-01 09:55:19
+# VPN下载 | 11月8日22.7M/S|免费V2ray节点/Clash节点/SSR节点/Singbox节点/Shadowrocket节点免费节点地址  更新时间 2026-11-08 10:37:09
 所有免费clash节点都爬取自网络，请勿用于非法用途 。节点地址：<a href="https://vpndownload.github.io" target="_blank">点击跳转</a>
 
 ## clash使用教程：
@@ -9,23 +9,23 @@
 
 ### 免费Clash节点订阅链接
 
-- https://vpndownload.github.io/uploads/2026/11/0-20261101.yaml
-- https://vpndownload.github.io/uploads/2026/11/1-20261101.yaml
-- https://vpndownload.github.io/uploads/2026/11/2-20261101.yaml
-- https://vpndownload.github.io/uploads/2026/11/3-20261101.yaml
-- https://vpndownload.github.io/uploads/2026/11/4-20261101.yaml
+- https://vpndownload.github.io/uploads/2026/11/0-20261108.yaml
+- https://vpndownload.github.io/uploads/2026/11/1-20261108.yaml
+- https://vpndownload.github.io/uploads/2026/11/2-20261108.yaml
+- https://vpndownload.github.io/uploads/2026/11/3-20261108.yaml
+- https://vpndownload.github.io/uploads/2026/11/4-20261108.yaml
 
 ### 免费V2ray节点订阅链接
 
-- https://vpndownload.github.io/uploads/2026/11/0-20261101.txt
-- https://vpndownload.github.io/uploads/2026/11/1-20261101.txt
-- https://vpndownload.github.io/uploads/2026/11/2-20261101.txt
-- https://vpndownload.github.io/uploads/2026/11/3-20261101.txt
-- https://vpndownload.github.io/uploads/2026/11/4-20261101.txt
+- https://vpndownload.github.io/uploads/2026/11/0-20261108.txt
+- https://vpndownload.github.io/uploads/2026/11/1-20261108.txt
+- https://vpndownload.github.io/uploads/2026/11/2-20261108.txt
+- https://vpndownload.github.io/uploads/2026/11/3-20261108.txt
+- https://vpndownload.github.io/uploads/2026/11/4-20261108.txt
 
 ### 免费Sing-box节点订阅链接
 
-- https://vpndownload.github.io/uploads/2026/11/20261101.json
+- https://vpndownload.github.io/uploads/2026/11/20261108.json
 
 ## 更多Clash节点订阅 ：
 
